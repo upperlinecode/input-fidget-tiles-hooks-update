@@ -17,21 +17,22 @@ Check out the [finished app](https://fidget-tiles-solution.netlify.app/) to see 
 
 ## The Lab
 
-Overall, we will be converting the code in `App.js` into functional components that store state.
+Overall, we will be converting the code in `App.jsx` into functional components that store state.
 
-0. Inspect the code in `App.js` and `Components/TextInput.js`. Notice that the `<TextInput />` component has already been completed in `App.js` and will be a pattern to follow for other functional components with state.
+0. Inspect the code in `App.jsx` and `Components/TextInput.jsx`. Notice that the `<TextInput />` component has already been completed in `App.jsx` and will be a pattern to follow for other functional components with state.
 
 1. Go to the second component, called `<DateInput />`, that displays the date `input` selection in the `span` with the name `dateOutput`. You will need to:
-	1. add an inline event to listen for when a change is made to the date `input`. This will need to use the `setState` method.
-	2. create a `this.state` object, and a property in that state object to store the value of the date.
-	3. display the value of the state in the span.
+
+   1. create a state variable and its corresponding setter method by invoking `useState` - you can leave the default value empty for now.
+   2. add an inline event to listen for when a change is made to the date `input`. This will need to use the `setDate` setter function (or whatever you called yours).
+   3. display the value of the state in the span.
 
 2. Open the component called `<NumberInput />` that displays the number `input` selection in the `span` with the name `numberOutput`.
 
-3. Create a new component called `<ButtonInput />` that switches state between `true` and `false` when the button is pressed. Display the state in the `span` with the name `buttonOutput`.
+3. Create a new component called `<ButtonInput />` that switches state between `true` and `false` when the button is pressed. Display the state in the `span` with the name `buttonOutput`. Bear in mind that this will need a different event handler than the `onChange` we've relied on so far.
 
-> Consider using a ternary operator (or an `if` statement) to display the value of the state. You will not be able to display the state directly.
-> Don't forget to import the component into `App.js`
+> Consider using a ternary operator to display the value of the state. You may not be able to display the state directly, as `true` and `false` can have some unexpected behaviors in JSX.
+> Don't forget to import the component into `App.jsx`
 
 4. Create a new component called `<RadioInput />` that displays which radio button is selected in the `span` with the name `radioOutput`.
 
