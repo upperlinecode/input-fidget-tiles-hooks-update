@@ -14,7 +14,7 @@ const DateInput = () => {
               <input type="date" className="textInput" />
             </div>
             <div className="output">
-              <label for="dateOutput">State: </label>
+              <label htmlFor="dateOutput">State: </label>
               <span name="dateOutput"></span>
             </div>
           </div>

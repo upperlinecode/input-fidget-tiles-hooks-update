@@ -18,7 +18,7 @@ const App = () => {
                   <input type="number" className="textInput" />
                 </div>
                 <div className="output">
-                  <label for="numberOutput">State: </label>
+                  <label htmlFor="numberOutput">State: </label>
                   <span name="numberOutput"></span>
                 </div>
               </div>
@@ -34,7 +34,7 @@ const App = () => {
                   <input type="button" value="Click me!" className="btn" />
                 </div>
                 <div className="output">
-                  <label for="buttonOutput">State: </label>
+                  <label htmlFor="buttonOutput">State: </label>
                   <span name="buttonOutput"></span>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const App = () => {
                   />
                 </div>
                 <div className="output">
-                  <label for="radioOutput">State: </label>
+                  <label htmlFor="radioOutput">State: </label>
                   <span name="radioOutput"></span>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const App = () => {
                   <input type="color" className="colorButton" />
                 </div>
                 <div className="output">
-                  <label for="colorOutput">State: </label>
+                  <label htmlFor="colorOutput">State: </label>
                   <span name="colorOutput"></span>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const App = () => {
                   />
                 </div>
                 <div className="output">
-                  <label for="checkboxOutput">Count: </label>
+                  <label htmlFor="checkboxOutput">Count: </label>
                   <span name="checkboxOutput"></span>
                 </div>
               </div>
@@ -158,7 +158,7 @@ const App = () => {
                   <input type="range" className="rangeInput" />
                 </div>
                 <div className="output">
-                  <label for="rangeOutput">State: </label>
+                  <label htmlFor="rangeOutput">State: </label>
                   <span name="rangeOutput"></span>
                 </div>
               </div>
@@ -182,7 +182,7 @@ const App = () => {
                   </select>
                 </div>
                 <div className="output">
-                  <label for="selectOutput">Image: </label>
+                  <label htmlFor="selectOutput">Image: </label>
                   <span name="selectOutput"></span>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const App = () => {
                   />
                 </div>
                 <div className="output">
-                  <label for="urlOutput">State: </label>
+                  <label htmlFor="urlOutput">State: </label>
                   <span name="urlOutput">
                     <a
                       href="http://"

@@ -23,7 +23,7 @@ const TextInput = () => {
               />
             </div>
             <div className="output">
-              <label for="textOutput">State: </label>
+              <label htmlFor="textOutput">State: </label>
               <span name="textOutput">{text}</span>
             </div>
           </div>
