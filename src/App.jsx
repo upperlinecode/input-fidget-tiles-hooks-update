@@ -13,7 +13,7 @@ const App = () => {
           <div className="card">
             <div className="card-content">
               <div className="card-title">Number</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input btn-block">
                   <input type="number" className="textInput" />
                 </div>
@@ -21,7 +21,7 @@ const App = () => {
                   <label for="numberOutput">State: </label>
                   <span name="numberOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -29,7 +29,7 @@ const App = () => {
           <div className="card">
             <div className="card-content">
               <div className="card-title">Button</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input btn-block">
                   <input type="button" value="Click me!" className="btn" />
                 </div>
@@ -37,7 +37,7 @@ const App = () => {
                   <label for="buttonOutput">State: </label>
                   <span name="buttonOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -45,7 +45,7 @@ const App = () => {
           <div className="card">
             <div className="card-content">
               <div className="card-title">Radio</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input">
                   <input
                     type="radio"
@@ -82,7 +82,7 @@ const App = () => {
                   <label for="radioOutput">State: </label>
                   <span name="radioOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -91,7 +91,7 @@ const App = () => {
             <div className="card-content">
               <div className="card-image"></div>
               <div className="card-title">Color</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input btn-block">
                   <input type="color" className="colorButton" />
                 </div>
@@ -99,7 +99,7 @@ const App = () => {
                   <label for="colorOutput">State: </label>
                   <span name="colorOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -107,7 +107,7 @@ const App = () => {
           <div className="card">
             <div className="card-content">
               <div className="card-title">Checkbox</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input">
                   <input
                     type="checkbox"
@@ -144,7 +144,7 @@ const App = () => {
                   <label for="checkboxOutput">Count: </label>
                   <span name="checkboxOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -153,7 +153,7 @@ const App = () => {
             <div className="card-content">
               <div className="card-image"></div>
               <div className="card-title">Range Slider</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input">
                   <input type="range" className="rangeInput" />
                 </div>
@@ -161,7 +161,7 @@ const App = () => {
                   <label for="rangeOutput">State: </label>
                   <span name="rangeOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -170,7 +170,7 @@ const App = () => {
             <div className="card-content">
               <div className="card-image"></div>
               <div className="card-title">Select</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input">
                   <select className="selectInput">
                     <option value="">Choose one:</option>
@@ -185,7 +185,7 @@ const App = () => {
                   <label for="selectOutput">Image: </label>
                   <span name="selectOutput"></span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>
@@ -193,7 +193,7 @@ const App = () => {
           <div className="card">
             <div className="card-content">
               <div className="card-title">URL</div>
-              <p className="card-text">
+              <div className="card-text">
                 <div className="input btn-block">
                   <input
                     type="url"
@@ -214,7 +214,7 @@ const App = () => {
                     </a>
                   </span>
                 </div>
-              </p>
+              </div>
             </div>
           </div>
         </li>

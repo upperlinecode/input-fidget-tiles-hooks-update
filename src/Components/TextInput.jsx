@@ -13,7 +13,7 @@ const TextInput = () => {
       <div className="card">
         <div className="card-content">
           <div className="card-title">Text</div>
-          <p className="card-text">
+          <div className="card-text">
             <div className="input btn-block">
               <input
                 type="text"
@@ -26,7 +26,7 @@ const TextInput = () => {
               <label for="textOutput">State: </label>
               <span name="textOutput">{text}</span>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </li>

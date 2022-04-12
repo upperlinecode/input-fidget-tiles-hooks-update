@@ -9,7 +9,7 @@ const DateInput = () => {
       <div className="card">
         <div className="card-content">
           <div className="card-title">Date</div>
-          <p className="card-text">
+          <div className="card-text">
             <div className="input btn-block">
               <input type="date" className="textInput" />
             </div>
@@ -17,7 +17,7 @@ const DateInput = () => {
               <label for="dateOutput">State: </label>
               <span name="dateOutput"></span>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </li>
