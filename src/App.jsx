@@ -2,6 +2,11 @@ import React from "react";
 import "./App.css";
 import TextInput from "./Components/TextInput";
 import DateInput from "./Components/DateInput";
+import NumberInput from "./Components/NumberInput";
+import ButtonInput from "./Components/ButtonInput";
+import RadioInput from "./Components/RadioInput";
+import ColorInput from "./Components/ColorInput";
+import CheckboxInput from "./Components/CheckboxInput";
 
 const App = () => {
   return (
@@ -9,145 +14,11 @@ const App = () => {
       <ul className="cards">
         <TextInput />
         <DateInput />
-        <li className="NumberInput cards-item">
-          <div className="card">
-            <div className="card-content">
-              <div className="card-title">Number</div>
-              <div className="card-text">
-                <div className="input btn-block">
-                  <input type="number" className="textInput" />
-                </div>
-                <div className="output">
-                  <label htmlFor="numberOutput">State: </label>
-                  <span name="numberOutput"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li className="ButtonInput cards-item">
-          <div className="card">
-            <div className="card-content">
-              <div className="card-title">Button</div>
-              <div className="card-text">
-                <div className="input btn-block">
-                  <input type="button" value="Click me!" className="btn" />
-                </div>
-                <div className="output">
-                  <label htmlFor="buttonOutput">State: </label>
-                  <span name="buttonOutput"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li className="RadioInput cards-item">
-          <div className="card">
-            <div className="card-content">
-              <div className="card-title">Radio</div>
-              <div className="card-text">
-                <div className="input">
-                  <input
-                    type="radio"
-                    name="radioInput"
-                    value="1"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="radio"
-                    name="radioInput"
-                    value="2"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="radio"
-                    name="radioInput"
-                    value="3"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="radio"
-                    name="radioInput"
-                    value="4"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="radio"
-                    name="radioInput"
-                    value="5"
-                    className="checkboxInput"
-                  />
-                </div>
-                <div className="output">
-                  <label htmlFor="radioOutput">State: </label>
-                  <span name="radioOutput"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li className="ColorInput cards-item">
-          <div className="card">
-            <div className="card-content">
-              <div className="card-image"></div>
-              <div className="card-title">Color</div>
-              <div className="card-text">
-                <div className="input btn-block">
-                  <input type="color" className="colorButton" />
-                </div>
-                <div className="output">
-                  <label htmlFor="colorOutput">State: </label>
-                  <span name="colorOutput"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-        <li className="CheckboxInput cards-item">
-          <div className="card">
-            <div className="card-content">
-              <div className="card-title">Checkbox</div>
-              <div className="card-text">
-                <div className="input">
-                  <input
-                    type="checkbox"
-                    name="checkboxInput"
-                    value="1"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="checkbox"
-                    name="checkboxInput"
-                    value="2"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="checkbox"
-                    name="checkboxInput"
-                    value="3"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="checkbox"
-                    name="checkboxInput"
-                    value="4"
-                    className="checkboxInput"
-                  />
-                  <input
-                    type="checkbox"
-                    name="checkboxInput"
-                    value="5"
-                    className="checkboxInput"
-                  />
-                </div>
-                <div className="output">
-                  <label htmlFor="checkboxOutput">Count: </label>
-                  <span name="checkboxOutput"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
+        <NumberInput />
+        <ButtonInput />
+        <RadioInput />
+        <ColorInput />
+        <CheckboxInput />
         <li className="RangeInput cards-item">
           <div className="card">
             <div className="card-content">
